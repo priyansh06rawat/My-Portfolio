@@ -1,6 +1,6 @@
 import project1Image from '@/assets/project-1.png';
 import project2Image from '@/assets/project-2.png';
-import project3Image from '@/assets/project-3.jpg';
+import project3Image from '@/assets/project-3.png';
 import { Button } from '@/components/ui/button';
 import { ExternalLink, Github, Globe, Monitor, Smartphone } from 'lucide-react';
 
@@ -19,7 +19,7 @@ const Projects = () => {
     {
       id: 2,
       title: "Weather-App",
-      description: "Weather-App is a dynamic weather app in React by fetching real-time data from the OpenWeatherMap REST API.",
+      description: "Weather-App is a dynamic weather app in React by fetching real-time data from the OpenWeatherMap REST API. It provides accurate weather updates and forecasts for any location worldwide.",
       image: project2Image,
       technologies: ["HTML", "CSS", "JavaScript"],
       liveUrl: "https://weather-app-seven-xi-52.vercel.app/",
@@ -28,12 +28,12 @@ const Projects = () => {
     },
     {
       id: 3,
-      title: "Raod Safety Index Calculator",
-      description: "Visualize road safety data through detailed heatmaps of your region. Identify high-risk areas and make informed decisions to enhance road safety with our intuitive tool.",
+      title: "To-Do App",
+      description: "A simple and intuitive To-Do application built with JavaScript that helps users manage their tasks efficiently. Features include adding, editing, and deleting tasks with a clean user interface.",
       image: project3Image,
-      technologies: ["React", "Node.js", "MongoDB", "Socket.io", "Material-UI"],
-      liveUrl: "https://road-safety-index-calculator.vercel.app/",
-      githubUrl: "https://github.com/tobiasrahul/road-safety-index-calculator",
+      technologies: ["HTML", "CSS", "JavaScript"],
+      liveUrl: "https://to-do-app-q3tl.vercel.app/",
+      githubUrl: "https://github.com/priyansh06rawat/TO-DO_APP",
       icon: <Globe className="h-5 w-5" />
     }
   ];

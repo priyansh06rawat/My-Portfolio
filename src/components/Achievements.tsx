@@ -12,26 +12,26 @@ const Achievements = () => {
     },
     {
       icon: <Award className="h-8 w-8 text-blue-500" />,
-      title: "Best UI/UX Design",
-      event: "TechCrunch Disrupt Hackathon",
-      description: "Won the design excellence award for creating an intuitive fintech application interface",
-      date: "2023",
-      category: "Design Award"
+      title: "Runner-Up",
+      event: "Haryana State School Cricket Championship",
+      description: "Competed in the Haryana State School Cricket Championship and finished in second place.",
+      date: "2020",
+      category: "Sport"
     },
     {
       icon: <Users className="h-8 w-8 text-green-500" />,
-      title: "Team Lead",
-      event: "Google Solution Challenge",
-      description: "Led a team of 4 developers to create a sustainability-focused mobile application",
-      date: "2022",
+      title: "Event Management Volunteer",
+      event: "Event Crew Club, Chandigarh University",
+      description: "Organized and coordinated university- level events, demonstrating leadership, teamwork, and time management.",
+      date: "2024 - Present",
       category: "Leadership"
     },
     {
       icon: <Zap className="h-8 w-8 text-purple-500" />,
-      title: "Innovation Award",
-      event: "University Tech Fest",
-      description: "Recognized for developing a groundbreaking AR-based learning platform",
-      date: "2022",
+      title: "Author & Researcher",
+      event: "TIJER Journal",
+      description: "Authored and Published a Research Paper on PCOS Model Accuracy Detection.",
+      date: "2024",
       category: "Innovation"
     }
   ];
